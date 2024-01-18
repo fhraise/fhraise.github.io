@@ -1,0 +1,28 @@
+{
+  "name": "fhraise-homepage",
+  "version": "0.0.1",
+  "description": "Fhraise Homepage",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fhraise/fhraise.github.io.git"
+  },
+  "author": "LTFan <xfqwdsj@qq.com>",
+  "license": "MIT",
+  "homepage": "https://github.com/fhraise/fhraise.github.io",
+  "dependencies": {
+    "next": "^14.0.4",
+    "nextra": "latest",
+    "nextra-theme-docs": "latest",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "18.11.10",
+    "typescript": "^5.3.3"
+  }
+}
