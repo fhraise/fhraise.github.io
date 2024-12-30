@@ -1,9 +1,11 @@
-const withNextra = require("nextra")({
-  theme: "nextra-theme-docs", themeConfig: "./theme.config.tsx",
+const withNextra = (await import('nextra')).default({
+  theme: "nextra-theme-docs",
+  themeConfig: "./theme.config.tsx",
 });
 
-module.exports = withNextra({
+export default withNextra({
   i18n: {
-    locales: ["zh-CN"], defaultLocale: "zh-CN",
+    locales: ["zh-CN"],
+    defaultLocale: "zh-CN",
   },
 });
