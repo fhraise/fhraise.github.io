@@ -21,7 +21,7 @@ const config: DocsThemeConfig = {
     }, logo: <FhraiseLogo/>, project: {
         link: "https://github.com/fhraise/Fhraise",
     }, docsRepositoryBase: "https://github.com/fhraise/fhraise.github.io", footer: {
-        content: (<span>© ${new Date().getFullYear()} HSAS Foodies.</span>),
+        content: (<span>© {new Date().getFullYear()} HSAS Foodies.</span>),
     }, toc: {backToTop: true},
 };
 
