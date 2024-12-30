@@ -1,1 +1,1 @@
-export { middleware } from 'nextra/locales'
+export {middleware} from "nextra/locales";
